@@ -9,6 +9,11 @@ import lombok.Setter;
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Curso {
 
+    public Curso(String nome, String categoria) {
+        this.nome = nome;
+        this.categoria = categoria;
+    }
+
     @EqualsAndHashCode.Include
     private Long id;
     private String nome;
