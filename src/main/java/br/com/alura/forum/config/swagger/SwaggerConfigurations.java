@@ -31,7 +31,7 @@ public class SwaggerConfigurations {
                             .parameterType("header")
                             .required(false)
                             .build()
-                        
+
                 ));
     }
 }
